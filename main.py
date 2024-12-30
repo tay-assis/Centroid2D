@@ -12,6 +12,17 @@ if __name__ == "__main__":
     x_label = "X Axis"
     y_label = "Y Axis"
     title = "Cartesian Plane"
+    window_title = "Centroid Detection"
+    figsize = (6, 5)
     
-    cartesian_plane = CartesianPlane(x_axis, y_axis, x_label, y_label, title)
+    cartesian_plane = CartesianPlane(
+        x_axis = x_axis, 
+        y_axis = y_axis, 
+        x_label = x_label, 
+        y_label = y_label, 
+        title = title, 
+        window_title = window_title, 
+        figsize = figsize
+    )
+    
     cartesian_plane.show()
